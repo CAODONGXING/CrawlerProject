@@ -28,7 +28,7 @@ static void search_for_links(GumboNode *node)
   }
 }
 
-extern "C" void getHref(char* file_name)
+extern "C" void getHref(char* file_name)//cdx fault char* file_name
 {
   //const char *filename = "file_name";
   const char *filename = "output1.txt";

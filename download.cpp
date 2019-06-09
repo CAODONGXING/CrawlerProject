@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-extern "C" void download(const char* url){
+extern "C" void download(const char* url,const char* connections){
     ifstream in("extList.txt", ios::in | ios::binary);
     if (!in)
     {
@@ -15,7 +15,9 @@ extern "C" void download(const char* url){
     while (getline(in, line))
     {
         string c_url = url;
-        string tmp = "wget "+ c_url +line;
+	string c_connections = connections;
+        //string tmp = "wget "+ c_url +line;
+	string tmp = "axel -n "+ c_connections+" " + c_url +line;
         const char *cmd = tmp.c_str();
         system(cmd);
     }

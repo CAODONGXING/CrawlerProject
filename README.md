@@ -41,4 +41,4 @@ SEONHYEONG KIM 2018227098
 
 ### How to run  
 > ./main .ext url  
-> ex) ./main .zip https://iscxdownloads.cs.unb.ca/iscxdownloads/CICAndMal2017/CSVs/
+> ex) ./main .zip https://iscxdownloads.cs.unb.ca/iscxdownloads/CICAndMal2017/CSVs/# helloworld
