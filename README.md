@@ -36,6 +36,12 @@ SEONHYEONG KIM 2018227098
 > sudo make install  
 > sudo apt-get install libgomp1  
 
+###  * Axel :  
+
+#### install tools  
+> sudo apt-get install axel 
+
+
 ### How to compile  
 > g++ -o main main.c -lcurl -lgumbo  
 
