@@ -47,4 +47,4 @@ SEONHYEONG KIM 2018227098
 
 ### How to run  
 > ./main .ext threads url  
-> ex) ./main .zip 5 https://iscxdownloads.cs.unb.ca/iscxdownloads/CICAndMal2017/CSVs/#
+> ex) ./main .zip 5 https://iscxdownloads.cs.unb.ca/iscxdownloads/CICAndMal2017/CSVs/
