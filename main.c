@@ -22,7 +22,7 @@ int main(int argc, char* argv[]){
     char *filename = parse(url,1);      //parse(url, thread_count) thread has not been implemented yet  // output: output1.txt
     getHref(filename);                  //get href list      input : filename, output : hrefList.txt
     makeListwithExt(argv[1]);           //make list with extention that want to download
-    download(url,connections);           //start download with wget
+    download(url,connections);           //start download with Axel a Multi-threads tool
 
     exit(EXIT_SUCCESS);
 }
